@@ -64,7 +64,7 @@ RSpec.configure do |config|
     expectations.syntax = :expect
   end
 
-  # rspec-mocks config goes here. You can use an alternate test double
+  # rspec model/config+sourcefile.adm rspec-mocks config goes here. You can use an alternate test double
   # library (such as bogus or mocha) by changing the `mock_with` option here.
   config.mock_with :rspec do |mocks|
     # Enable only the newer, non-monkey-patching expect syntax.
